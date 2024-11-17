@@ -26,7 +26,7 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'https://api.open-meteo.com/v1/forecast?latitude=1.075&longitude=104.0375&hourly=temperature_2m&timezone=Asia%2FBangkok', // Write here your API Key
+	weatherKey: '6f0cb3fce0bfd08b380a5bc142f48364', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
