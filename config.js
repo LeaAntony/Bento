@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Leant',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'https://api.open-meteo.com/v1/forecast?latitude=1.075&longitude=104.0375&hourly=temperature_2m&timezone=Asia%2FBangkok', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '1.075',
+	defaultLongitude: '104.0375',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -61,13 +61,13 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'Drive',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'https://drive.google.com',
 		},
 		{
 			id: '4',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -104,9 +104,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'bot',
+			name: 'Discord',
 			icon: 'bot',
-			link: 'https://discord.com/app',
+			link: 'https://discord.com/',
 		},
 		{
 			id: '4',
@@ -139,20 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Indonesia',
+					link: 'https://open.spotify.com/playlist/2057uMREeB0zq8RkfsfRnn?si=530ca7f0c0ee41ed',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'English',
+					link: 'https://open.spotify.com/playlist/6EzWYVXSsBDlPzwx6dn2aH?si=2c00fefb68c64ba3',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '日本',
+					link: 'https://open.spotify.com/playlist/06gXcnbGerBVLw43AQ3CT7?si=61f3bc96024d4b12',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '한국',
+					link: 'https://open.spotify.com/playlist/6glFChAVvx5Xk1yyFeq9KK?si=4c680463b9f04937',
 				},
 			],
 		},
@@ -162,19 +162,19 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					link: 'https://www.linkedin.com/in/lea-antony/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Github',
+					link: 'https://github.com/LeaAntony',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Steam',
+					link: 'https://steamcommunity.com/id/LeaAntony/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Instagram',
+					link: 'https://www.instagram.com/leaantony17/',
 				},
 			],
 		},
